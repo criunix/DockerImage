@@ -26,5 +26,5 @@ RUN	wget https://github.com/etr/libhttpserver/archive/master.zip && \
 	../configure && \
 	make && \
 	make install && \
-	rm -f master.zip && \
-	rm -fr release-1.10.0.tar.gz 
+	rm -f /master.zip && \
+	rm -fr /release-1.10.0.tar.gz 
